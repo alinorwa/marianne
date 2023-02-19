@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+
+    background-color: #0F1626;
+}
+
+
+
+.ali-about-me-googlefonte {
+    font-family: 'Tangerine', cursive;
+}
+
+.ali-google-font {
+    font-family: 'Dancing Script', cursive;
+}
+
+.ali-google-font-header-p {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/* .ali-text-about {
+    text-indent: 20px;
+    text-align: justify;
+
+} */
+
+
+
+
+
+.ali-bachground-changeColor-header {
+    animation: myanimation 10s infinite;
+}
+
+
+@keyframes myanimation {
+    0% {
+        background-color: rgb(245, 174, 174);
+    }
+
+    25% {
+        background-color: rgb(237, 237, 144);
+    }
+
+    50% {
+        background-color: rgb(185, 243, 185);
+    }
+
+    75% {
+        background-color: rgb(220, 136, 208);
+    }
+
+    100% {
+        background-color: rgb(147, 210, 244);
+    }
+}
+
+
+
+
+
+
+
+.ali-img-header {
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+
+
+}
+
+.ali-card {
+    padding: 100px;
+
+}
+
+
+
+
+.ali-img-nav-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* start gallry */
+.ali-pictures {
+    height: 500px;
+    width: 100%;
+    object-fit: fill;
+    border: 3px solid whitesmoke;
+    padding: 7px;
+    filter: grayscale();
+    transition: all 0.2s linear;
+}
+
+.ali-pictures:hover {
+
+    filter: none;
+    border: 5px solid whitesmoke;
+    padding: 10px;
+}
+
+/* end gallry */
+
+
+/* start ali-all-pic */
+.ali-all-pic {
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+    border: 3px solid whitesmoke;
+    padding: 7px;
+    filter: grayscale();
+    transition: all 0.2s linear;
+}
+
+.ali-all-pic:hover {
+
+    filter: none;
+    border: 5px solid whitesmoke;
+    padding: 10px;
+}
+
+/* ali-all-pic */
+
+
+
+.ali-conffas {
+    /* From https://css.glass */
+    background: rgba(248, 221, 221, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .ali-nav-bg-media {
+        background-color: #0F1626;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .ali-text-about {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
